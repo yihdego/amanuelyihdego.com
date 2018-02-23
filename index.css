@@ -20,9 +20,24 @@
   min-width: 400px;
 }
 
+#projects {
+  list-style: none;
+  padding: 0;
+}
+
+.a_project {
+  margin: 10px;
+  height: 240px;
+}
+
+.a_project ul {
+  list-style: none;
+}
+
 .screenshot {
-  width: 360px;
-  height: auto;
+  border: black solid 1px;
+  width: 301px;
+  height: 238px;
   margin-right: 20px;
   float: left;
 }
