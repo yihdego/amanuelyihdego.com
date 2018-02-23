@@ -1,3 +1,6 @@
+body {
+  padding: 20px;
+}
 .header {
   background: blue;
 }
@@ -17,4 +20,15 @@
 }
 .about-statement {
   border: red 1px dotted;
+}
+
+#menu1 {
+  background-color: orange;
+}
+
+#about-me {
+  display: flex;
+  
+  background-color: orange;
+  max-width: 800px;
 }
