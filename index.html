@@ -8,47 +8,38 @@
     <title>Amanuel's Website</title>
   </head>
   <body>
-    <h1>Welcome to Amanuel's Website</h1>
-    <div class="container">
-      <h2 class="about-title">About Me</h2>
-      <div class="row">
-        <div class="about-pic col">
+    <div class="content">
+      <section id=about-me>
+        <div class="heading">
+          <h2>About Me</h2>
+        </div>
+        <div class="about-pic">
           <img class="profilepic" src="./profilepic.jpg" alt="profilepic">
         </div>
-        <div class="about-statement col">
+        <div class="about-statement">
           <p>I’m a man of many hats. My recent passion is web development and programming. I discovered it later in life, but I always had an affinity to technology. My degree is in Broadcast Production, and I worked as a production assistant in news rooms and Hollywood.</p>
           <p> learned web development at Dev Bootcamp where I learned Ruby on Rails, Javascript and React. After the bootcamp I have worked on strengthing those foundations and learning from my mentors in the PNW.</p>
         </div>
-      </div>
-    </div>
-
-    <div class="container">
-
-      <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-        <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-        <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-        <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-      </ul>
-
-      <div class="tab-content">
-        <div id="home" class="tab-pane fade in active">
-          <h3>HOME</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </section>
+      <section id="projects">
+        <div class="heading">
+          <h2>Projects</h2>
         </div>
-        <div id="menu1" class="tab-pane fade">
-          <h3>Menu 1</h3>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="deckbox">
+          <div class="project-pic">
+            <img class="screenshot" src="./deckbox_screenshot.jpg" alt="deckbox_screenshot">
+          </div>
+          <div class="project-statement">
+            <p>
+              Deckbox is my first full stack website built from the ground up. It has it own database of magic cards that is searchable by name. Each set of Magic is organized as well. There is a user authentication system which allows users to make an account to make list’s of cards, similar to the kind taken to the Magic Pro Tour. To highlight cards and decklists a random one of each is generated each time a user visits the site.
+            </p>
+            <ul class="project-links">
+              <li><a href="http://deckbox.herokuapp.com/">http://deckbox.herokuapp.com/</a></li>
+              <li><a href="https://github.com/yihdego/magic-app">Deckbox's Github</a></li>
+            </ul>
+          </div>
         </div>
-        <div id="menu2" class="tab-pane fade">
-          <h3>Menu 2</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-        </div>
-        <div id="menu3" class="tab-pane fade">
-          <h3>Menu 3</h3>
-          <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        </div>
-      </div>
+      </section>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

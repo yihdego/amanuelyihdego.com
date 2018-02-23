@@ -1,34 +1,28 @@
-body {
-  padding: 20px;
-}
-.header {
-  background: blue;
-}
-
-.about-me {
-  border: green 1px dotted;
-}
-
-.profilepic {
-  border: orange 1px dotted;
-}
-
-.about-pic {
-
-  border: blue 1px dotted;
-  float: left;
-}
-.about-statement {
-  border: red 1px dotted;
-}
-
-#menu1 {
-  background-color: orange;
+.content {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
 }
 
 #about-me {
-  display: flex;
-  
-  background-color: orange;
-  max-width: 800px;
+
+}
+
+.profilepic {
+
+}
+
+.about-pic {
+  padding-right: 25px;
+  float: left;
+}
+.about-statement {
+  min-width: 400px;
+}
+
+.screenshot {
+  width: 360px;
+  height: auto;
+  margin-right: 20px;
+  float: left;
 }
